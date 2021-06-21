@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="/script.js" ></script>
+    <link rel="stylesheet" href="/styles.css">
+    <title>
+        Memorys
+    </title>
+</head>
+<body>
+    <main>
+            <div class="content">
+                <div id="contentGame">
+                   <div class="interface-game">
+                    <div class="header">
+                        <label>Quantidade de objetos</label>
+                        <h1 class="totalCount">0</h1>
+                    </div>
+                    <label>Objeto atual</label>
+                    <h1 class="actualCount" >0</h1>
+                    <h2>-----</h2>
+                    <label for="">Digite aqui o objeto de memória</label>
+                    <p type="text">
+                    <input type="text" class="valueObject" 
+                        onkeypress='checkEnterClick(event)'><br>
+                    <button
+                         onclick="start()" class="playingBtn"  
+                          >Memorizar
+                    </button>
+                   </div>
+                </div>
+            </div>
+    </main>
+</body>
+</html>
